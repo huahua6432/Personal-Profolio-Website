@@ -1,0 +1,18 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 555px;
+    /* padding: 80px 0 80px; */
+    /* background:  url("../../assets/Home/jumbo.jpg") #a3b18a; */
+    background-color: #6c5b7b;
+    scroll-margin: 160px;
+
+
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* z-index: -1; */
+}
