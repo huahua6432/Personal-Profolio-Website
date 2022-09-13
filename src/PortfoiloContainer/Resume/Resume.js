@@ -141,7 +141,7 @@ export default function Resume(props) {
             />
             <div className='experience-description'>
                 <span className='resume-description-text'>
-                    &#9679; Developed an Electricity Device Abnormality  Detection Algorithm reducing the on-site workload of power line inspectors
+                    &#9679; Participated in the development of an abnormality detection application on renewable energy equipment
                 </span>
             </div>
             {/* <div className='experience-description'>

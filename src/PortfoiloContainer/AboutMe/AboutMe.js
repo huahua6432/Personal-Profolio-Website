@@ -13,7 +13,7 @@ export default function AboutMe(props) {
     const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
     const SCREEN_CONSTSANTS = {
-        description1: 'Computer Science is a booming industry, \n meaning plenty of learning resources and a lot of opportunities, which attracts many people to enter, and I am also one of them.',
+        description1: 'Computer Science is a thriving industry, \n meaning plenty of learning resources and a lot of opportunities, which attracts many people to enter, and I am also one of them.',
         description2: 'Currently, I am a graduate student at Tufts University. During this period, I not only took the relevant school courses but also learned online about knowledge of front and back-end. I really enjoyed this process.',
         description3: 'During my internship, I continued to improve my skills and also received a lot of help and kindness from many people, This experience reinforced my desire to develop my career here.',
         highlights: {
@@ -67,7 +67,7 @@ export default function AboutMe(props) {
                             <button className='btn primary-btn' onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>
                                 {""}Contact Me{""}
                             </button>
-                            <a href='Resume.pdf' download='Resume.pdf'><button className='btn highlighted-btn'>
+                            <a href='Resume_XiaoyanHua.pdf' download='Resume_XiaoyanHua.pdf'><button className='btn highlighted-btn'>
                                 Get Resume
                             </button></a>
                         </div>

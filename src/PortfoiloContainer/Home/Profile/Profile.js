@@ -46,7 +46,7 @@ export default function Profile() {
                             onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>
                             {""}Contact me{" "}
                         </button>
-                        <a href='Resume.pdf' download='Resume.pdf'><button className='btn highlighted-btn'>
+                        <a href='Resume_XiaoyanHua.pdf' download='Resume_XiaoyanHua.pdf'><button className='btn highlighted-btn'>
                             Get Resume
                         </button></a>
                     </div>

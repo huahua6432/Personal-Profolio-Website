@@ -6,7 +6,6 @@ import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
 import ScrollService from '../../utilities/ScrollService';
 import Animations from '../../utilities/Animations';
 import './Testimonial.css'
-import picture from '../../assets/Testimonial/bg-1.jpg'
 import shape from '../../assets/Testimonial/shape-bg.png';
 
 export default function Testimonial(props) {
@@ -70,7 +69,7 @@ export default function Testimonial(props) {
                             <div className='col-lg-12'>
                                 <div className='testi-item'>
                                     <div className='client-info'>
-                                        < a href='https://github.com/huahua6432/Developer-Connector' target='_blank' rel="noreferrer">
+                                        < a href='https://github.com/huahua6432/Dev-Connector' target='_blank' rel="noreferrer">
                                             <h5>Developer Connector</h5>
                                         </a>
                                         <p>Keywords: JavaScript, Node.js, Express, MongoDB, React</p>
@@ -86,9 +85,10 @@ export default function Testimonial(props) {
                             <div className='col-lg-12'>
                                 <div className='testi-item'>
                                     <div className='client-info'>
-                                        <h5>Personal Protfolio Website</h5>
+                                        < a href='https://github.com/huahua6432/Personal-Profolio-Website' target='_blank' rel="noreferrer">
+                                            <h5>Personal Protfolio Website</h5>
+                                        </a>
                                         <p>Keywords: JavaScript, CSS, React</p>
-
                                     </div>
                                     <div className='testi-comment'>
                                         <p>

@@ -185,10 +185,6 @@ form {
         margin-right: 20px;
     }
 
-    /* .back-form .img-back .picture {
-        opacity: 1;
-    } */
-
     form {
         flex: 0.9;
     }
@@ -204,7 +200,7 @@ form {
     }
 
     .back-form .img-back .picture {
-        opacity: 0;
+        height: 0;
     }
 
     form {
