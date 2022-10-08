@@ -60,33 +60,6 @@ export default function Resume(props) {
         // { skill: 'MySQL', ratingPercentage: 80 },
     ]
 
-    const projectsDetails = [
-        // {
-        //     title: "Personal Portolio Website",
-        //     duration: { fromDate: '2022', toDate: '2022' },
-        //     description: 'A personal Protolio website to showcase all my details and projects at one place',
-        //     subHeading: 'Technologies Used: React Js, Bootstrap',
-        // },
-        {
-            title: "Travel Review Website",
-            duration: { fromDate: '2021', toDate: '2021' },
-            description: 'A website where people view and share travel experiences and pictures of different tourist spots',
-            subHeading: 'Technologies Used:JavaScript,  CSS, HTML',
-        },
-        {
-            title: "Job Seeking Crawler",
-            duration: { fromDate: '2021', toDate: '2021' },
-            description: 'Achieved crawling and parsing job recruiting information related to computer science on a recruitment website',
-            subHeading: 'Technologies Used: Spring Boot, MySQL',
-        },
-        {
-            title: "Client Chat Application",
-            duration: { fromDate: '2021', toDate: '2021' },
-            description: 'Designed a chat application based on the client-server model as an open-end project for lesson Network',
-            subHeading: 'Technologies Used: C',
-        },
-    ];
-
     const resumeDetails = [
         <div className='resume-screen-container' key='education'>
             <ResumeHeading
@@ -112,7 +85,7 @@ export default function Resume(props) {
 
         <div className='resume-screen-container' key='work-experience'>
             <ResumeHeading
-                heading={'Arista Network, Nashua, NH'}
+                heading={'Arista Networks, Nashua, NH'}
                 subHeading={'software engineer (intern)'}
                 fromDate={'2022'}
                 toDate={'2022'}
